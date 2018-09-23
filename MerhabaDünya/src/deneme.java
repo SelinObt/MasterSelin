@@ -22,6 +22,10 @@ public class deneme {
 		 char benimki = 's';
 		 
 		 System.out.println(benimki);
+		 
+		 benimshort = benimbyte;
+		 
+		 System.out.println(benimshort);
 	}
 
 }
