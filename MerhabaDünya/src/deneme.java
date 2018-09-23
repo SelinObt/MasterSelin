@@ -26,6 +26,21 @@ public class deneme {
 		 benimshort = benimbyte;
 		 
 		 System.out.println(benimshort);
+		  
+		 
+		 String  benimString= "Selin Obut ";
+		 
+		 boolean benimboolean = true;
+		 
+		 benimString = String.valueOf(benimboolean);
+		 
+		 System.out.println(benimString);
+		 
+		 String sel= "Sel1";
+				 
+		 benimString =sel;
+		 
+		 System.out.println(sel);
 	}
 
 }
