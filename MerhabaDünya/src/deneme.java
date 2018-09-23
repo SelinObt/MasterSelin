@@ -41,6 +41,8 @@ public class deneme {
 		 benimString =sel;
 		 
 		 System.out.println(sel);
+		 
+		 
 	}
 
 }
