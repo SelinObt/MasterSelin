@@ -61,7 +61,7 @@ public class deneme {
 		 System.out.println("Girdiginiz isim = " + gelenString);
 		 */
 		 
-	Scanner deger = new Scanner(System.in);
+	/*Scanner deger = new Scanner(System.in);
 	System.out.println("Lütfen isminizi girin");
 	String isim = deger.nextLine();
 	
@@ -84,5 +84,30 @@ public class deneme {
 		
 		 
 	}
-
+*/
+		
+	int suyunKaynamaNoktasi = 80;
+	 
+	if  (suyunKaynamaNoktasi >= 100) {
+		
+		System.out.println("suyunuz kaynıyor tebrik ederiz ahahah");
+	}
+	
+	else if (suyunKaynamaNoktasi < 90) {
+		System.out.println("Su henüz kaynamaya başlamadı" ); 
+	    }
+	 else if  (suyunKaynamaNoktasi <85)
+	 {
+       System.out.println("suyun kaynamasına daha 15 derece sıcaklık daha gereklidir");
+		 
+		 	 }
+	 else {
+			 System.out.println("su henüz kaynamadı çünkü elselerde mantıksal hata var :D");
+			 
+	}
+	 
+	 
+   }
 }
+		
+
