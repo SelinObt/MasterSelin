@@ -8,7 +8,7 @@ public class deneme {
 		// TODO Auto-generated method stub
 
 		
-		 byte benimbyte=120;
+		/* byte benimbyte=120;
 		 System.out.println(benimbyte);
 		 
 		short benimshort=121;
@@ -37,6 +37,7 @@ public class deneme {
 		 
 		 benimString = String.valueOf(benimboolean);
 		 
+		 
 		 System.out.println(benimString);
 		 
 		 String sel= "Sel1";
@@ -47,14 +48,40 @@ public class deneme {
 		 
 		 
 		 String gelensayi;
+		 String gelenString;
 		 
 		 Scanner erkus = new Scanner(System.in);
 		 
-		 gelensayi= erkus.nextLine();		 
+		 gelensayi= erkus.nextLine();	
+		 
+		 gelenString= erkus.next();
 		 
 		 System.out.println("Girdiginiz deger = " + gelensayi);
 		 
+		 System.out.println("Girdiginiz isim = " + gelenString);
+		 */
 		 
+	Scanner deger = new Scanner(System.in);
+	System.out.println("Lütfen isminizi girin");
+	String isim = deger.nextLine();
+	
+	System.out.println("Lütfen yasınızı giriniz");
+	
+
+	
+	int yas = deger.nextInt();
+		 
+	if (yas >= 25 ) {
+		
+		System.out.println("Hücreleriniz yaslanmaya baslamıstır ahaha");
+		
+	}
+	else {
+		
+		System.out.println("Hala bebek gibisin");
+	}
+		
+		
 		 
 	}
 
