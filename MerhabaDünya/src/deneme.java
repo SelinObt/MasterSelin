@@ -78,7 +78,7 @@ public class deneme {
 	}
 	else {
 		
-		System.out.println("Hala bebek gibisin");
+		System.out.println("Hala bebek gibisin  "  +  isim);
 	}
 		
 		
