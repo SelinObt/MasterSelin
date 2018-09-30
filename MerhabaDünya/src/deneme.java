@@ -1,4 +1,7 @@
 
+import java.util.Scanner;
+
+
 public class deneme {
 
 	public static void main(String[] args) {
@@ -41,6 +44,16 @@ public class deneme {
 		 benimString =sel;
 		 
 		 System.out.println(sel);
+		 
+		 
+		 String gelensayi;
+		 
+		 Scanner erkus = new Scanner(System.in);
+		 
+		 gelensayi= erkus.nextLine();		 
+		 
+		 System.out.println("Girdiginiz deger = " + gelensayi);
+		 
 		 
 		 
 	}
