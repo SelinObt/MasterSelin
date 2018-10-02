@@ -85,7 +85,8 @@ public class deneme {
 		 
 	}
 */
-		
+	
+	  	
 	int suyunKaynamaNoktasi = 80;
 	 
 	if  (suyunKaynamaNoktasi >= 100) {
@@ -106,6 +107,26 @@ public class deneme {
 			 
 	}
 	 
+	
+	int otel= 7;
+	
+	if (otel <=6) {
+		
+		System.out.println("oteli beğenmedim");
+		
+	}
+	
+	else {
+			System.out.println("oteli beğendim");
+			
+			
+	}
+	
+   
+		
+		
+//	int  otel <=6 ? "beğendim" : "beğenmedim" ;
+	
 	 
    }
 }
