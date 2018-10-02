@@ -122,6 +122,7 @@ public class deneme {
 			
 	}
 	
+System.out.println("Akşam bakıcamm abişşş");
    
 		
 		
